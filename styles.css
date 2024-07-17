@@ -64,5 +64,32 @@
 
 .MainBody{
   border: 2px solid green;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 3fr 1fr;
 }
+.articles{
+  border: 2px solid rgb(128, 0, 124);
+  grid-column: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+#yourPro{
+  grid-column:1/4 ;
+}
+.sideStuff{
+  border: 2px solid rgb(128, 36, 0);
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 1fr 1fr;
+}
+#announce{
+  border: 2px solid rgb(128, 0, 23);
+
+}
+#trends{
+  border: 2px solid green;
+}
+
 
