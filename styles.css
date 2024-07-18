@@ -76,11 +76,10 @@
   margin-bottom: 0px;
 }
 .header{
-  border: 2px solid blue;
   grid-column: 2/3;
   display: grid;
   gap: 5px;
-  grid-template-columns: 1fr .5fr;
+  grid-template-columns: 720px 530px;
   background-color: white;
 }
 #search{
@@ -112,52 +111,219 @@
   
 }
 #sideUser{
-  border: 2px solid violet;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 50px 60px 300px;
+}
+#sideUser > span{
+  margin-top: 15px;
+}
+#rong{
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+#rong > img{
+  height: 100%;
+  width: 100%;
+}
+#me{
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+#me > img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+#sideUser > span{
+  margin-left: 100px;
 }
 #user{
-  border: 2px solid indigo;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 80px 600px;
+  width: 730px;
 }
 #facebig{
   grid-row: 1/3;
+  height: 55px;
+  width: 55px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+#facebig > img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%; 
+}
+#hi{
+  height: 12px;
+  margin: 0px;
+  font-size: 10px;
+  margin-top: 30px;
+  margin-left: 3px;
+}
+#pname{
+  margin: 0px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-left: 3px;
 }
 #buts{
-  border: 2px solid green;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  height: 60px;
+  width: 350px;
+  margin-top: 20px;
 }
-
+#buts > button{
+  background-color: #0ea5e9;
+  color:white;
+  border-radius: 18px;
+  margin: 10px;
+  border: none;
+}
+#last{
+  margin-right: 100px;
+}
 .MainBody{
   border: 2px solid green;
   display: grid;
   gap: 5px;
   grid-template-columns: 3fr 1fr;
+  background-color: #dce2eb;
 }
 .articles{
-  border: 2px solid rgb(128, 0, 124);
   grid-column: 1/2;
+}
+#collection{
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  font-weight: bolder;
+  font-size: 17px;
+}
+#collection >div> p{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+}
+#collection > div{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  height: 100px;
+  border-left:#0ea5e9 7px solid;
+  border-radius: 6px;
+}
+#collection > div > div > div{
+  height: 15px;
+  width: 15px;
+}
+#collection > div > div > div > img{
+  height: 100%;
+  width: 100%;
+}
+#collection > div > p{
+  color: #747474;
+  font-weight: 500;
+}
+#collection > div > div{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px;
 }
 #yourPro{
-  grid-column:1/4 ;
+  grid-column: 1/4;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 17px;
+  font-weight: bolder;
 }
 .sideStuff{
   border: 2px solid rgb(128, 36, 0);
   display: grid;
   gap: 10px;
   grid-template-rows: 1fr 1fr;
+  height: 900px;
+  grid-column: 2/3;
 }
-#announce{
-  border: 2px solid rgb(128, 0, 23);
+#announce > p{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 25px;
+  margin-bottom: 28px;
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight: bolder;
+}
+#allannounce{
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#fd,#sd{
+  border-bottom: #a4a4a4 1px solid;
+}
+#announce >div > div{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 17px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#announce > div > div > p{
+  margin: 0px;
+  padding: 0px;
+  font-weight: 500px;
+  color: #747474;
+  font-size: 12px;
+
 
 }
 #trends{
   border: 2px solid green;
 }
-
-
+.allcontain{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+#trends > p{
+  padding: 0px;
+  margin: 0px;
+}
+.icons#pack2 > img{
+  height: 150%;
+  width: 150%;
+  border-radius: 50%;
+}
+.iconNames#sec > p{
+  padding: 0px;
+  margin: 0px;
+  margin-top: 25px;
+  margin-right: 50px;
+  font-size: 13px;
+}
+.iconNames#sec > #c{
+  margin-top: 16px;
+}
+.iconNames#sec > #d{
+  margin-top: 16px;
+}
+.iconNames#sec > #b{
+  margin-top: 20px;
+}
