@@ -1,0 +1,1 @@
+This project is part of odin project course, dashboard built entirely using HTML and CSS Grid. 
