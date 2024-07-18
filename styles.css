@@ -4,32 +4,75 @@
   gap: 10px;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 5fr;
+  font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 .dash{
   padding: 0px;
   margin: 0px;
-  border: 2px solid red;
   grid-column: 1/2;
   grid-row: 1/4;
   display: grid;
-  gap: 5px;
+  color: white;
+  background-color: #0ea5e9;
+  display: grid;
+  grid-template-rows: 1fr 5fr 10fr;
 }
 #TheDashboard{
-  border: 2px solid yellow;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  height: 60px;
+}
+#TheDashboard > p{
+  margin: 0px;
+  padding-top: 12.5px;
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+#TheDashboardIconContainer{
+  height: 50px;
+  width: 50px;
+}
+#TheDashboardIcon{
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding-left: 15px;
+  margin-top: 10px;
 }
 .iconContainer{
-  border: 2px solid rgb(80, 203, 244);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5px;
 }
 .icons{
-  border: 2px solid yellow;
+  height: 20px;
+  width: 20px;
+  margin-top: 27px;
+  margin-left: 22px;
+  margin-bottom: 5px;
 }
-.iconNames{
-  border: 2px solid blue;
+.iconNames > p{
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 28px;
+  margin-right: 80px;
+  margin-bottom: 0px;
+}
+.icons2 > .icons{
+  margin-top: 31.5px;
+}
+.iconNames2 > p{
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 32px;
+  margin-right: 120px;
+  margin-bottom: 0px;
 }
 .header{
   border: 2px solid blue;
